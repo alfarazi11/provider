@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Negative Rawat Jalan]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Negative Rawat Jalan Test(failed)" verbose="0">
+    <classes>
+      <class name="test.rawatjalan.NegativeRJTest">
+        <methods>
+          <include name="login"/>
+          <include name="policyInactiveIndividual"/>
+          <include name="regisSamePatientWithSameTreatment"/>
+          <include name="policyInactiveUnderCorporate"/>
+          <include name="createChromeDriver"/>
+          <include name="quitChromeDriver"/>
+          <include name="invalidLevelProvider"/>
+        </methods>
+      </class> <!-- test.rawatjalan.NegativeRJTest -->
+    </classes>
+  </test> <!-- Negative Rawat Jalan Test(failed) -->
+</suite> <!-- Failed suite [Negative Rawat Jalan] -->

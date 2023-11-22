@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Positive Rawat Inap">
+    <test thread-count="1" parallel="methods" name="Positive Rawat Inap Test" >
+        <classes>
+            <class name="test.rawatinap.PositiveRITest">
+                <methods>
+                    <include name="positiveRegisterInPatient"/>
+<!--                    <include name="positiveRegisterMaternity"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

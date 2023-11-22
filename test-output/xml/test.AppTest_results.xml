@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automationprovider"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.251">
+    <properties></properties>
+
+
+
+            <testcase
+                name="positivePengesahanTagihan"
+                time="5.251"
+                classname="test.AppTest">
+            </testcase>
+</testsuite>

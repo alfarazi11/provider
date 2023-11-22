@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Filter List Rawat Jalan">
+    <test thread-count="4" parallel="methods" name="Filter List Rawat Inap Test" >
+        <classes>
+            <class name="test.rawatinap.FilterRITest">
+                <methods>
+                    <include name="verifyFilterNoKlaimListRI"/>
+                    <include name="verifyFilterNoKlaimNegListRI"/>
+                    <include name="verifyFilterRegDateListRI"/>
+                    <include name="verifyFilterRegDateNegListRI"/>
+                    <include name="verifyFilterTransNoListRI"/>
+                    <include name="verifyFilterTransNoNegListRI"/>
+                    <include name="verifyFilterCardNoListRI"/>
+                    <include name="verifyFilterCardNoNegListRI"/>
+                    <include name="verifyFilterParticipantNameListRI"/>
+                    <include name="verifyFilterParticipantNameNegListRI"/>
+                    <include name="verifyFilterTypeTreatmentListRI"/>
+                    <include name="verifyFilterStatusListRI"/>
+                    <include name="verifyMultipleFilterListRI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

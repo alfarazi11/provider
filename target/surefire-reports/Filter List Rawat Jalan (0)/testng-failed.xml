@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Filter List Rawat Jalan (0)]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Filter List Rawat Jalan Test(failed)" verbose="0">
+    <classes>
+      <class name="test.rawatjalan.FilterRJTest">
+        <methods>
+          <include name="verifyFilterRegDateNegListRJ"/>
+          <include name="verifyFilterTransNoListRJ"/>
+          <include name="verifyFilterTypeTreatmentListRJ"/>
+          <include name="login"/>
+          <include name="quitChromeDriver"/>
+          <include name="verifyFilterStatusListRJ"/>
+          <include name="verifyFilterCardNoListRJ"/>
+          <include name="verifyFilterRegDateListRJ"/>
+          <include name="verifyFilterNoKlaimNegListRJ"/>
+          <include name="verifyFilterParticipantNameNegListRJ"/>
+          <include name="verifyFilterCardNoNegListRJ"/>
+          <include name="verifyFilterNoKlaimListRJ"/>
+          <include name="verifyFilterTransNoNegListRJ"/>
+          <include name="createChromeDriver"/>
+        </methods>
+      </class> <!-- test.rawatjalan.FilterRJTest -->
+    </classes>
+  </test> <!-- Filter List Rawat Jalan Test(failed) -->
+</suite> <!-- Failed suite [Filter List Rawat Jalan (0)] -->

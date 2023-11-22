@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automationproviderFindBy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.192">
+    <properties></properties>
+
+
+
+            <testcase
+                name="validLogin"
+                time="2.192"
+                classname="test.LoginTest">
+            </testcase>
+</testsuite>

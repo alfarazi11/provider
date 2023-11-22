@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Negative Rawat Inap">
+    <test thread-count="1" parallel="methods" name="Negative Rawat Inap Test" >
+        <classes>
+            <class name="test.rawatinap.NegativeRITest">
+                <methods>
+                    <include name="invalidLevelProvider"/>
+                    <include name="policyInactiveUnderCorporateRI"/>
+                    <include name="policyInactiveIndividualRI"/>
+                    <include name="manfaatBerlakuReimbursementRI"/>
+                    <include name="memberCurrencyUSDRI"/>
+                    <include name="regisSamePatientWithSameTreatmentRI"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

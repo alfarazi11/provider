@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automationproviderFindBy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="84.338">
+    <properties></properties>
+
+
+
+            <testcase
+                name="registerRJWithConditionPostRIStillActive"
+                time="84.338"
+                classname="test.ppri.PositivePPRITest">
+            </testcase>
+</testsuite>

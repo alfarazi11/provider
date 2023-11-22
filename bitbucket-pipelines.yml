@@ -1,0 +1,33 @@
+options:
+  size: 2x
+definitions:
+  services:
+    docker:
+      memory: 4096
+
+image: markhobson/maven-firefox:jdk-17
+
+pipelines:
+  default:
+    - stage:
+        name: Build and test
+        steps:
+          - step:
+              name: Test app
+              services:
+                - docker
+              size: 2x
+              caches:
+                - maven
+              fail-fast: false
+              allow_fail: true
+              script:
+                - apt-get update -y && apt-get install openssh-client -y
+                - mvn test -Pprovider
+              after-script:
+                - scp -P $STG_SSH_PORT allure-results/* $STG_SSH_USER@$STG_SSH_HOST:~/projects/dire-web-provider/results/
+                - scp -r -P $STG_SSH_PORT target/surefire-reports/* $STG_SSH_USER@$STG_SSH_HOST:~/projects/dire-web-provider/reports/surefire-reports/
+                - mvn test -Pprovider2
+              artifacts: # defining the artifacts to be passed to each future step.
+                - allure-results/**
+                - target/surefire-reports/**

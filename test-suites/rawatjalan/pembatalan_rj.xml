@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Pembatalan Rawat Jalan">
+    <test thread-count="1" parallel="methods" name="Pembatalan Rawat Jalan Test" >
+        <classes>
+            <class name="test.rawatjalan.PembatalanRawatJalanTest">
+                <methods>
+<!--                    <include name="cancelRegistFromDetail"/>-->
+                    <include name="cancelRegistFromListing"/>
+                    <include name="CancelRegisWithCompletedPengesahanTagihan"/>
+                    <include name="priorityMemberAndCancelRegisFromDetail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <listeners>
+<!--        <listener class-name="listeners.ScreenshotListener"/>-->
+<!--        <listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
+<!--        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
+        <listener class-name="listeners.ExtentReportListener" />
+    </listeners>
+    <suite-files preserve-order="true">
+        <suite-file path="test-suites/login.xml"/>
+        <suite-file path="test-suites/rawatinap/positive_ri.xml"/>
+        <suite-file path="test-suites/rawatinap/filter_list_ri.xml"/>
+        <suite-file path="test-suites/rawatjalan/filter_list_rj.xml"/>
+        <suite-file path="test-suites/rawatjalan/negative_rj.xml"/>
+        <suite-file path="test-suites/rawatjalan/pembatalan_rj.xml"/>
+        <suite-file path="test-suites/rawatjalan/positive_rj.xml"/>
+    </suite-files>
+</suite>

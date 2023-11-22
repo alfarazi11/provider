@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automationproviderFindBy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="91.852">
+    <properties></properties>
+
+
+
+            <testcase
+                name="positiveRegisterInPatient"
+                time="91.852"
+                classname="test.rawatinap.PositiveRITest">
+            </testcase>
+</testsuite>

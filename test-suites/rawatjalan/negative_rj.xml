@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Negative Rawat Jalan">
+    <test thread-count="2" parallel="methods" name="Negative Rawat Jalan Test" >
+        <classes>
+            <class name="test.rawatjalan.NegativeRJTest">
+                <methods>
+                    <include name="policyInactiveUnderCorporate"/>
+                    <include name="policyInactiveIndividual"/>
+                    <include name="manfaatBerlakuReimbursement"/>
+                    <include name="dobNotMatch"/>
+                    <include name="invalidLevelProvider"/>
+                    <!--                    <include name="prosesAdministrasiUnderCorporate"/>-->
+                    <!--                    <include name="prosesAdministrasiIndividual"/>-->
+                    <include name="memberCurrencyUSD"/>
+                    <include name="regisSamePatientWithSameTreatment"/>
+                    <include name="memberInnerLimit"/>
+                    <include name="memberAsCharge"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

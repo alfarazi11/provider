@@ -1,0 +1,4 @@
+username,password,type
+testingadmin,Qa@meditap77,valid
+invaliduser,Tpa@2023,invalidUsername
+testingadmin,invalidpass,invalidPass

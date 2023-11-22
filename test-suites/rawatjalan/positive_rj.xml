@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Positive Rawat Jalan">
+    <test thread-count="1" parallel="methods" name="Positive Rawat Jalan Test" >
+        <classes>
+            <class name="test.rawatjalan.PositiveRJTest">
+                <methods>
+                    <include name="positiveRegisOutPatient"/>
+                    <include name="positivePengesahanTagihan"/>
+                    <include name="positivePenagihanKlaimAndCancelRegis"/>
+                    <!--                    <include name="registerOPViaQR"/>-->
+<!--                    <include name="verifyLimitDeductionAndBackIfCancel"/>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

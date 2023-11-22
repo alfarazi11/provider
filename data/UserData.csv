@@ -1,0 +1,4 @@
+username,password,type
+AdminRSMIYA8,Tpa@2023,valid
+invaliduser,Login123!,invalidUsername
+SiloamSurabaya,invalidpass,invalidPass

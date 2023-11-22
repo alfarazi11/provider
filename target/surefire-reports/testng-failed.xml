@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Positive Rawat Inap]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Positive Rawat Inap Test(failed)" verbose="0">
+    <classes>
+      <class name="test.rawatinap.PositiveRITest">
+        <methods>
+          <include name="login"/>
+          <include name="positiveRegisterInPatient"/>
+          <include name="createChromeDriver"/>
+          <include name="quitChromeDriver"/>
+        </methods>
+      </class> <!-- test.rawatinap.PositiveRITest -->
+    </classes>
+  </test> <!-- Positive Rawat Inap Test(failed) -->
+</suite> <!-- Failed suite [Positive Rawat Inap] -->

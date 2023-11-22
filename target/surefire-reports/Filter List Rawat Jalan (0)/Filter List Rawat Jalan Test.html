@@ -1,0 +1,1108 @@
+<html>
+<head>
+<title>TestNG:  Filter List Rawat Jalan Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Filter List Rawat Jalan Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Nov 03 09:20:46 WIB 2023</td>
+</tr>
+<tr><td>Total time:</td><td>90 seconds (90928 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterCardNoListRJ()'><b>verifyFilterCardNoListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 9d51977a-a6fb-4639-98fa-22b91024be10 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a8ce6dea-4b69-4b27-a00c-8b41169bfe25, isElementDisplayed {id=9d51977a-a6fb-4639-98fa-22b91024be10}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:22671, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2732, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:22671/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (a8ce6dea-4b69-4b27-a00c-8b41169bfe25)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: a8ce6dea-4b69-4b27-a00c-8b41169bfe25
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterCardNoListRJ(FilterRJTest.java:135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace351354895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace351354895'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 9d51977a-a6fb-4639-98fa-22b91024be10 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [a8ce6dea-4b69-4b27-a00c-8b41169bfe25, isElementDisplayed {id=9d51977a-a6fb-4639-98fa-22b91024be10}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:22671, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2732, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:22671/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (a8ce6dea-4b69-4b27-a00c-8b41169bfe25)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: a8ce6dea-4b69-4b27-a00c-8b41169bfe25
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterCardNoListRJ(FilterRJTest.java:135)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>5</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterCardNoNegListRJ()'><b>verifyFilterCardNoNegListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 98bf165c-c0ed-4d81-b1b5-36adafc716e7 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [34c38804-1937-45b7-8611-163454403e5e, isElementDisplayed {id=98bf165c-c0ed-4d81-b1b5-36adafc716e7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:12911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 64752, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:12911/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (34c38804-1937-45b7-8611-163454403e5e)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 34c38804-1937-45b7-8611-163454403e5e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterCardNoNegListRJ(FilterRJTest.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1813679766", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1813679766'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 98bf165c-c0ed-4d81-b1b5-36adafc716e7 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [34c38804-1937-45b7-8611-163454403e5e, isElementDisplayed {id=98bf165c-c0ed-4d81-b1b5-36adafc716e7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:12911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 64752, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:12911/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (34c38804-1937-45b7-8611-163454403e5e)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 34c38804-1937-45b7-8611-163454403e5e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterCardNoNegListRJ(FilterRJTest.java:154)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>5</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterNoKlaimListRJ()'><b>verifyFilterNoKlaimListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 7735777f-fae3-4706-be5a-7c3527504d0f is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7d3171dd-8963-4e35-81e0-3534ee6db584, isElementDisplayed {id=7735777f-fae3-4706-be5a-7c3527504d0f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:46123, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 52116, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46123/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (7d3171dd-8963-4e35-81e0-3534ee6db584)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 7d3171dd-8963-4e35-81e0-3534ee6db584
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterNoKlaimListRJ(FilterRJTest.java:31)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace705485729", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace705485729'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 7735777f-fae3-4706-be5a-7c3527504d0f is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7d3171dd-8963-4e35-81e0-3534ee6db584, isElementDisplayed {id=7735777f-fae3-4706-be5a-7c3527504d0f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:46123, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 52116, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:46123/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (7d3171dd-8963-4e35-81e0-3534ee6db584)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 7d3171dd-8963-4e35-81e0-3534ee6db584
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterNoKlaimListRJ(FilterRJTest.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>7</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterNoKlaimNegListRJ()'><b>verifyFilterNoKlaimNegListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 915f3da9-6ac6-47fe-b64e-90606e9456f1 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1c59a4fa-63e3-4249-bc75-68e565b7b234, isElementDisplayed {id=915f3da9-6ac6-47fe-b64e-90606e9456f1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:39452, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63324, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:39452/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1c59a4fa-63e3-4249-bc75-68e565b7b234)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 1c59a4fa-63e3-4249-bc75-68e565b7b234
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterNoKlaimNegListRJ(FilterRJTest.java:50)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace819156005", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace819156005'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 915f3da9-6ac6-47fe-b64e-90606e9456f1 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1c59a4fa-63e3-4249-bc75-68e565b7b234, isElementDisplayed {id=915f3da9-6ac6-47fe-b64e-90606e9456f1}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:39452, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 63324, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:39452/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (1c59a4fa-63e3-4249-bc75-68e565b7b234)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 1c59a4fa-63e3-4249-bc75-68e565b7b234
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterNoKlaimNegListRJ(FilterRJTest.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterParticipantNameNegListRJ()'><b>verifyFilterParticipantNameNegListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 01e8775f-df0f-443e-a642-209232772d02 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [562ab24e-5912-474f-93f5-6e25281910f5, isElementDisplayed {id=01e8775f-df0f-443e-a642-209232772d02}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:33080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 39168, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:33080/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (562ab24e-5912-474f-93f5-6e25281910f5)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 562ab24e-5912-474f-93f5-6e25281910f5
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterParticipantNameNegListRJ(FilterRJTest.java:189)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2117692455", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2117692455'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 01e8775f-df0f-443e-a642-209232772d02 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [562ab24e-5912-474f-93f5-6e25281910f5, isElementDisplayed {id=01e8775f-df0f-443e-a642-209232772d02}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:33080, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 39168, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:33080/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (562ab24e-5912-474f-93f5-6e25281910f5)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 562ab24e-5912-474f-93f5-6e25281910f5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterParticipantNameNegListRJ(FilterRJTest.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterRegDateListRJ()'><b>verifyFilterRegDateListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference e2024259-c1b4-43f4-a41f-e137bb00c6b0 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [101dc480-4d0d-4d61-ba9f-b56aba77ea30, isElementDisplayed {id=e2024259-c1b4-43f4-a41f-e137bb00c6b0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:20085, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 53428, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20085/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (101dc480-4d0d-4d61-ba9f-b56aba77ea30)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 101dc480-4d0d-4d61-ba9f-b56aba77ea30
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterRegDateListRJ(FilterRJTest.java:66)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace588323125", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace588323125'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference e2024259-c1b4-43f4-a41f-e137bb00c6b0 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [101dc480-4d0d-4d61-ba9f-b56aba77ea30, isElementDisplayed {id=e2024259-c1b4-43f4-a41f-e137bb00c6b0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:20085, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 53428, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:20085/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (101dc480-4d0d-4d61-ba9f-b56aba77ea30)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 101dc480-4d0d-4d61-ba9f-b56aba77ea30
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterRegDateListRJ(FilterRJTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterRegDateNegListRJ()'><b>verifyFilterRegDateNegListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 752403f0-a665-4cec-9392-020016d0af54 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [66bee84e-9459-4735-b35d-4a5dea529781, isElementDisplayed {id=752403f0-a665-4cec-9392-020016d0af54}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:23762, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 54008, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23762/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (66bee84e-9459-4735-b35d-4a5dea529781)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 66bee84e-9459-4735-b35d-4a5dea529781
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterRegDateNegListRJ(FilterRJTest.java:84)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace692779745", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace692779745'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 752403f0-a665-4cec-9392-020016d0af54 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [66bee84e-9459-4735-b35d-4a5dea529781, isElementDisplayed {id=752403f0-a665-4cec-9392-020016d0af54}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:23762, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 54008, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23762/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (66bee84e-9459-4735-b35d-4a5dea529781)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 66bee84e-9459-4735-b35d-4a5dea529781
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterRegDateNegListRJ(FilterRJTest.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterStatusListRJ()'><b>verifyFilterStatusListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference efff0f0f-98df-4172-a561-6fc68788a7af is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3a53172b-38a6-49a1-9e0f-258e5e2ad3bc, isElementDisplayed {id=efff0f0f-98df-4172-a561-6fc68788a7af}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:9621, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5760, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9621/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (3a53172b-38a6-49a1-9e0f-258e5e2ad3bc)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 3a53172b-38a6-49a1-9e0f-258e5e2ad3bc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterStatusListRJ(FilterRJTest.java:223)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1463831629", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1463831629'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference efff0f0f-98df-4172-a561-6fc68788a7af is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3a53172b-38a6-49a1-9e0f-258e5e2ad3bc, isElementDisplayed {id=efff0f0f-98df-4172-a561-6fc68788a7af}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:9621, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5760, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:9621/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (3a53172b-38a6-49a1-9e0f-258e5e2ad3bc)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 3a53172b-38a6-49a1-9e0f-258e5e2ad3bc
+	at jdk.internal.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterStatusListRJ(FilterRJTest.java:223)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterTransNoListRJ()'><b>verifyFilterTransNoListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference b676ca3c-2da6-486f-abb6-536cafb82adf is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14070287-ee83-4f0d-b29f-19bcc5d8b486, isElementDisplayed {id=b676ca3c-2da6-486f-abb6-536cafb82adf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:23536, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 65416, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23536/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (14070287-ee83-4f0d-b29f-19bcc5d8b486)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 14070287-ee83-4f0d-b29f-19bcc5d8b486
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterTransNoListRJ(FilterRJTest.java:100)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1177377337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1177377337'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference b676ca3c-2da6-486f-abb6-536cafb82adf is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14070287-ee83-4f0d-b29f-19bcc5d8b486, isElementDisplayed {id=b676ca3c-2da6-486f-abb6-536cafb82adf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:23536, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 65416, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:23536/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (14070287-ee83-4f0d-b29f-19bcc5d8b486)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 14070287-ee83-4f0d-b29f-19bcc5d8b486
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterTransNoListRJ(FilterRJTest.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterTransNoNegListRJ()'><b>verifyFilterTransNoNegListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference c912b428-3241-4aad-b162-a31b31211662 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c0f92620-e3fe-4c03-aa0c-d2d0fb471ff9, isElementDisplayed {id=c912b428-3241-4aad-b162-a31b31211662}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:19424, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75528, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19424/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (c0f92620-e3fe-4c03-aa0c-d2d0fb471ff9)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: c0f92620-e3fe-4c03-aa0c-d2d0fb471ff9
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterTransNoNegListRJ(FilterRJTest.java:119)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace9273312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace9273312'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference c912b428-3241-4aad-b162-a31b31211662 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c0f92620-e3fe-4c03-aa0c-d2d0fb471ff9, isElementDisplayed {id=c912b428-3241-4aad-b162-a31b31211662}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:19424, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 75528, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:19424/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (c0f92620-e3fe-4c03-aa0c-d2d0fb471ff9)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: c0f92620-e3fe-4c03-aa0c-d2d0fb471ff9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterTransNoNegListRJ(FilterRJTest.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>7</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterTypeTreatmentListRJ()'><b>verifyFilterTypeTreatmentListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 43a57ed5-ca49-451e-a504-8125cac26b0d is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7b2aa7f0-a020-4629-87f3-113e058732d0, isElementDisplayed {id=43a57ed5-ca49-451e-a504-8125cac26b0d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:8184, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 72392, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:8184/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (7b2aa7f0-a020-4629-87f3-113e058732d0)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 7b2aa7f0-a020-4629-87f3-113e058732d0
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterTypeTreatmentListRJ(FilterRJTest.java:205)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace516171160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace516171160'><pre>org.openqa.selenium.StaleElementReferenceException: The element with the reference 43a57ed5-ca49-451e-a504-8125cac26b0d is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7b2aa7f0-a020-4629-87f3-113e058732d0, isElementDisplayed {id=43a57ed5-ca49-451e-a504-8125cac26b0d}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:8184, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 72392, moz:profile: C:\Users\ARRUMI~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:8184/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (7b2aa7f0-a020-4629-87f3-113e058732d0)] -&gt; xpath: //div[@data-testid=&apos;btnShowFilter&apos;]]
+Session ID: 7b2aa7f0-a020-4629-87f3-113e058732d0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:313)
+	at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy19.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:660)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:656)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at page.BasePage.waitForClickable(BasePage.java:59)
+	at page.BasePage.doClick(BasePage.java:24)
+	at page.rawatjalan.ListRJPage.clickPencarian(ListRJPage.java:153)
+	at test.rawatjalan.FilterRJTest.verifyFilterTypeTreatmentListRJ(FilterRJTest.java:205)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>6</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyFilterParticipantNameListRJ()'><b>verifyFilterParticipantNameListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td></td>
+<td>18</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+<tr>
+<td title='test.rawatjalan.FilterRJTest.verifyMultipleFilterListRJ()'><b>verifyMultipleFilterListRJ</b><br>Test class: test.rawatjalan.FilterRJTest</td>
+<td></td>
+<td>12</td>
+<td>test.rawatjalan.FilterRJTest@7ae0a9ec</td></tr>
+</table><p>
+</body>
+</html>

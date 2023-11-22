@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Filter List Rawat Jalan">
+    <test thread-count="4" parallel="methods" name="Filter List Rawat Jalan Test" >
+        <classes>
+            <class name="test.rawatjalan.FilterRJTest">
+                <methods>
+                    <include name="verifyFilterNoKlaimListRJ"/>
+                    <include name="verifyFilterNoKlaimNegListRJ"/>
+                    <include name="verifyFilterRegDateListRJ"/>
+                    <include name="verifyFilterRegDateNegListRJ"/>
+                    <include name="verifyFilterTransNoListRJ"/>
+                    <include name="verifyFilterTransNoNegListRJ"/>
+                    <include name="verifyFilterCardNoListRJ"/>
+                    <include name="verifyFilterCardNoNegListRJ"/>
+                    <include name="verifyFilterParticipantNameListRJ"/>
+                    <include name="verifyFilterParticipantNameNegListRJ"/>
+                    <include name="verifyFilterTypeTreatmentListRJ"/>
+                    <include name="verifyFilterStatusListRJ"/>
+                    <include name="verifyMultipleFilterListRJ"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

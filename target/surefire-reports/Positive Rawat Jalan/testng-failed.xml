@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Positive Rawat Jalan]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Positive Rawat Jalan Test(failed)" verbose="0">
+    <classes>
+      <class name="test.rawatjalan.PositiveRJTest">
+        <methods>
+          <include name="positivePengesahanTagihan"/>
+          <include name="positivePenagihanKlaimAndCancelRegis"/>
+          <include name="positiveRegisOutPatient"/>
+          <include name="createChromeDriver"/>
+          <include name="login"/>
+          <include name="quitChromeDriver"/>
+        </methods>
+      </class> <!-- test.rawatjalan.PositiveRJTest -->
+    </classes>
+  </test> <!-- Positive Rawat Jalan Test(failed) -->
+</suite> <!-- Failed suite [Positive Rawat Jalan] -->
