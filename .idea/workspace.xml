@@ -10,9 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5d10129-9bde-4ec7-ab40-0f3b25c0e2a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/rawatjalan/PendaftaranRawatGigiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/FilterRJTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/rawatjalan/FilterRJTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/PembatalanRawatJalanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/rawatjalan/PembatalanRawatJalanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatjalan/PendaftaranRGNvTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/ppri/PositivePPRITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/ppri/PositivePPRITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatinap/FilterRITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatinap/FilterRITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatinap/NegativeRITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatinap/NegativeRITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatinap/PositiveRITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatinap/PositiveRITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/FilterRJTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatjalan/FilterRJTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/NegativeRJTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatjalan/PendaftaranRJNvTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/PembatalanRawatJalanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatjalan/PembatalanRJTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/PendaftaranRawatGigiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/rawatjalan/PositiveRJTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/azi/rawatjalan/PendaftaranRJPvTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/ppri/PositivePPRITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatinap/FilterRITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatinap/NegativeRITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatinap/PositiveRITest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatjalan/FilterRJTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatjalan/NegativeRJTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatjalan/PembatalanRawatJalanTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatjalan/PendaftaranRawatGigiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/rawatjalan/PositiveRJTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite0_test0_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.RawatJalanTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.RawatJalanTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.ppri.PositivePPRITest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.ppri.PositivePPRITest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatinap.FilterRITest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatinap.FilterRITest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatinap.NegativeRITest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatinap.NegativeRITest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatinap.PositiveRITest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatinap.PositiveRITest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.CekLimitTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.CekLimitTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.FilterRJTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.FilterRJTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.FilterTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.FilterTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.NegativeRJTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.NegativeRJTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.NegativeRawatJalan_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.NegativeRawatJalan_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.PembatalanRawatJalanTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.PembatalanRawatJalanTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.PositiveRJTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/test.rawatjalan.PositiveRJTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatinap/filter_list_ri.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatinap/filter_list_ri.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatinap/negative_ri.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatinap/negative_ri.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatinap/positive_ri.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatinap/positive_ri.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatjalan/filter_list_rj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatjalan/filter_list_rj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatjalan/negative_rj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatjalan/negative_rj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatjalan/pembatalan_rj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatjalan/pembatalan_rj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-suites/rawatjalan/positive_rj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-suites/rawatjalan/positive_rj.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Alfarazi/Automation/test",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "settings.sync"
@@ -71,53 +110,17 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FilterRJTest.verifyMultipleFilterListRJNegative">
-    <configuration name="FilterRITest.verifyFilterStatusListRI" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationprovider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.rawatinap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.rawatinap" />
-      <option name="MAIN_CLASS_NAME" value="test.rawatinap.FilterRITest" />
-      <option name="METHOD_NAME" value="verifyFilterStatusListRI" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FilterRITest.verifyMultipleFilterListRI" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automationprovider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.rawatinap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.rawatinap" />
-      <option name="MAIN_CLASS_NAME" value="test.rawatinap.FilterRITest" />
-      <option name="METHOD_NAME" value="verifyMultipleFilterListRI" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PendaftaranRJNvTest.manfaatBerlakuReimbursement">
     <configuration name="FilterRJTest.verifyMultipleFilterListRJNegative" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationprovider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.rawatjalan.*" />
+          <option name="PATTERN" value="test.azi.ppri.rawatjalan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.rawatjalan" />
-      <option name="MAIN_CLASS_NAME" value="test.rawatjalan.FilterRJTest" />
+      <option name="MAIN_CLASS_NAME" value="test.azi.ppri.rawatjalan.FilterRJTest" />
       <option name="METHOD_NAME" value="verifyMultipleFilterListRJNegative" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -130,12 +133,12 @@
       <module name="automationprovider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.rawatinap.*" />
+          <option name="PATTERN" value="test.azi.ppri.rawatinap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.rawatinap" />
-      <option name="MAIN_CLASS_NAME" value="test.rawatinap.NegativeRITest" />
+      <option name="MAIN_CLASS_NAME" value="test.azi.ppri.rawatinap.NegativeRITest" />
       <option name="METHOD_NAME" value="invalidLevelProviderRI" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -148,13 +151,49 @@
       <module name="automationprovider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.rawatinap.*" />
+          <option name="PATTERN" value="test.azi.ppri.rawatinap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.rawatinap" />
-      <option name="MAIN_CLASS_NAME" value="test.rawatinap.NegativeRITest" />
+      <option name="MAIN_CLASS_NAME" value="test.azi.ppri.rawatinap.NegativeRITest" />
       <option name="METHOD_NAME" value="manfaatBerlakuReimbursementRI" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PendaftaranRGNvTest.userAlreadyRegisterWithSameTreatment" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationprovider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.azi.rawatjalan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.azi.rawatjalan" />
+      <option name="MAIN_CLASS_NAME" value="test.azi.rawatjalan.PendaftaranRGNvTest" />
+      <option name="METHOD_NAME" value="userAlreadyRegisterWithSameTreatment" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PendaftaranRJNvTest.manfaatBerlakuReimbursement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationprovider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.azi.rawatjalan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.azi.rawatjalan" />
+      <option name="MAIN_CLASS_NAME" value="test.azi.rawatjalan.PendaftaranRJNvTest" />
+      <option name="METHOD_NAME" value="manfaatBerlakuReimbursement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -164,11 +203,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PendaftaranRJNvTest.manfaatBerlakuReimbursement" />
+        <item itemvalue="TestNG.PendaftaranRGNvTest.userAlreadyRegisterWithSameTreatment" />
         <item itemvalue="TestNG.FilterRJTest.verifyMultipleFilterListRJNegative" />
         <item itemvalue="TestNG.NegativeRITest.invalidLevelProviderRI" />
         <item itemvalue="TestNG.NegativeRITest.manfaatBerlakuReimbursementRI" />
-        <item itemvalue="TestNG.FilterRITest.verifyMultipleFilterListRI" />
-        <item itemvalue="TestNG.FilterRITest.verifyFilterStatusListRI" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +226,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/test/rawatinap/PositiveRITest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/test/azi/rawatinap/PositiveRITest.java</url>
           <line>212</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>

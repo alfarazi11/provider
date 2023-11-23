@@ -3,7 +3,7 @@
 <suite name="Negative Rawat Jalan">
     <test thread-count="2" parallel="methods" name="Negative Rawat Jalan Test" >
         <classes>
-            <class name="test.rawatjalan.NegativeRJTest">
+            <class name="test.azi.rawatjalan.PendaftaranRJNvTest">
                 <methods>
                     <include name="policyInactiveUnderCorporate"/>
                     <include name="policyInactiveIndividual"/>

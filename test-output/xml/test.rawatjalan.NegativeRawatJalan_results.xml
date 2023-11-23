@@ -12,6 +12,6 @@
             <testcase
                 name="policyInactiveUnderCorporate"
                 time="7.105"
-                classname="test.rawatjalan.NegativeRJTest">
+                classname="test.azi.rawatjalan.PendaftaranRJNvTest">
             </testcase>
 </testsuite>

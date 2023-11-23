@@ -12,6 +12,6 @@
             <testcase
                 name="positiveRegisterInPatient"
                 time="91.852"
-                classname="test.rawatinap.PositiveRITest">
+                classname="test.azi.rawatinap.PositiveRITest">
             </testcase>
 </testsuite>

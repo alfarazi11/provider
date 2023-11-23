@@ -12,6 +12,6 @@
             <testcase
                 name="registerRJWithConditionPostRIStillActive"
                 time="84.338"
-                classname="test.ppri.PositivePPRITest">
+                classname="test.azi.ppri.PositivePPRITest">
             </testcase>
 </testsuite>

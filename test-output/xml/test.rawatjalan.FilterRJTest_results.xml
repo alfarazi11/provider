@@ -12,6 +12,6 @@
             <testcase
                 name="verifyMultipleFilterListRJNegative"
                 time="14.886"
-                classname="test.rawatjalan.FilterRJTest">
+                classname="test.azi.rawatjalan.FilterRJTest">
             </testcase>
 </testsuite>

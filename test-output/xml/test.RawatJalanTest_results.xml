@@ -12,6 +12,6 @@
             <testcase
                 name="verifyFilterStatus"
                 time="4.151"
-                classname="test.rawatjalan.FilterRJTest">
+                classname="test.azi.rawatjalan.FilterRJTest">
             </testcase>
 </testsuite>

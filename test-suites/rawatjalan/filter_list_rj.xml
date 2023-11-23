@@ -3,7 +3,7 @@
 <suite name="Filter List Rawat Jalan">
     <test thread-count="4" parallel="methods" name="Filter List Rawat Jalan Test" >
         <classes>
-            <class name="test.rawatjalan.FilterRJTest">
+            <class name="test.azi.rawatjalan.FilterRJTest">
                 <methods>
                     <include name="verifyFilterNoKlaimListRJ"/>
                     <include name="verifyFilterNoKlaimNegListRJ"/>

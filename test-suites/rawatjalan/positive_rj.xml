@@ -3,7 +3,7 @@
 <suite name="Positive Rawat Jalan">
     <test thread-count="1" parallel="methods" name="Positive Rawat Jalan Test" >
         <classes>
-            <class name="test.rawatjalan.PositiveRJTest">
+            <class name="test.azi.rawatjalan.PendaftaranRJPvTest">
                 <methods>
                     <include name="positiveRegisOutPatient"/>
                     <include name="positivePengesahanTagihan"/>

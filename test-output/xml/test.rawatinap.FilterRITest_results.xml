@@ -12,6 +12,6 @@
             <testcase
                 name="verifyMultipleFilterListRI"
                 time="15.489"
-                classname="test.rawatinap.FilterRITest">
+                classname="test.azi.rawatinap.FilterRITest">
             </testcase>
 </testsuite>

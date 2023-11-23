@@ -3,7 +3,7 @@
 <suite name="Positive Rawat Inap">
     <test thread-count="1" parallel="methods" name="Positive Rawat Inap Test" >
         <classes>
-            <class name="test.rawatinap.PositiveRITest">
+            <class name="test.azi.rawatinap.PositiveRITest">
                 <methods>
                     <include name="positiveRegisterInPatient"/>
 <!--                    <include name="positiveRegisterMaternity"/>-->

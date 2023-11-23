@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automationproviderFindBy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.914">
+    <properties></properties>
+
+
+
+            <testcase
+                name="manfaatBerlakuReimbursement"
+                time="17.914"
+                classname="test.azi.rawatjalan.PendaftaranRJNvTest">
+            </testcase>
+</testsuite>

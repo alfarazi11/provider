@@ -12,6 +12,6 @@
             <testcase
                 name="CancelRegisWithCompletedPengesahanTagihan"
                 time="182.871"
-                classname="test.rawatjalan.PembatalanRawatJalanTest">
+                classname="test.azi.rawatjalan.PembatalanRJTest">
             </testcase>
 </testsuite>

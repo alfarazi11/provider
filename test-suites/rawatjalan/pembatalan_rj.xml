@@ -3,7 +3,7 @@
 <suite name="Pembatalan Rawat Jalan">
     <test thread-count="1" parallel="methods" name="Pembatalan Rawat Jalan Test" >
         <classes>
-            <class name="test.rawatjalan.PembatalanRawatJalanTest">
+            <class name="test.azi.rawatjalan.PembatalanRJTest">
                 <methods>
 <!--                    <include name="cancelRegistFromDetail"/>-->
                     <include name="cancelRegistFromListing"/>
